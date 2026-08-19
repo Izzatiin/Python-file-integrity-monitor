@@ -33,33 +33,33 @@ Pastikan Anda telah menginstal **Python 3.10+**.
 
 ## 📖 Panduan Cara Penggunaan
 
-### 1. Inisialisasi Baseline Database (--init)
-Sebelum melakukan pemantauan, Anda harus membuat berkas acuan (baseline) awal dari direktori yang ingin dipantau.
+### 1. Inisialisasi Baseline Database (`--init`)
+Sebelum melakukan pemantauan, Anda harus membuat berkas acuan (*baseline*) awal dari direktori yang ingin dipantau.
 
-python fim_advanced.py -t <NAMA_FOLDER_TARGET> --init
+`python fim_advanced.py -t <NAMA_FOLDER_TARGET> --init`
 
 *Contoh:*
-python fim_advanced.py -t ./my_folder --init
+`python fim_advanced.py -t ./my_folder --init`
 
 ---
 
-### 2. Jalankan Pemeriksaan Integritas (--check)
-Bandingkan kondisi direktori saat ini dengan baseline yang telah disimpan sebelumnya:
+### 2. Jalankan Pemeriksaan Integritas (`--check`)
+Bandingkan kondisi direktori saat ini dengan *baseline* yang telah disimpan sebelumnya:
 
-python fim_advanced.py -t <NAMA_FOLDER_TARGET> --check
+`python fim_advanced.py -t <NAMA_FOLDER_TARGET> --check`
 
 *Contoh:*
-python fim_advanced.py -t ./my_folder --check
+`python fim_advanced.py -t ./my_folder --check`
 
 ---
 
 ### 3. Opsi Tambahan
 
-- **Mengubah Algoritma Hashing (-a):**
-  python fim_advanced.py -t ./my_folder -a blake2b --init
+- **Mengubah Algoritma Hashing (`-a`):**
+  `python fim_advanced.py -t ./my_folder -a blake2b --init`
 
-- **Menentukan Nama File Baseline Custom (-b):**
-  python fim_advanced.py -t ./my_folder -b my_baseline.json --init
+- **Menentukan Nama File Baseline Custom (`-b`):**
+  `python fim_advanced.py -t ./my_folder -b my_baseline.json --init`
 
 ---
 
