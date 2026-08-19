@@ -65,16 +65,13 @@ python fim_advanced.py -t ./my_folder --check
 
 ## 🖥️ Contoh Tampilan Laporan Audit
 
-       🛡️ Laporan Pemeriksaan Integritas Sistem (FIM)
-┌──────────────┬────────────────────────────────────────────┐
-│ Status Audit │ Relative File Path                         │
-├──────────────┼────────────────────────────────────────────┤
-│   MODIFIED   │ config/settings.json                       │
-│   CREATED    │ logs/unauthorized_script.py                │
-│   DELETED    │ system/backup.db                           │
-└──────────────┴────────────────────────────────────────────┘
+| Status Audit | Relative File Path |
+| :---: | :--- |
+| **MODIFIED** | `config/settings.json` |
+| **CREATED** | `logs/unauthorized_script.py` |
+| **DELETED** | `system/backup.db` |
 
-Ringkasan Alert: Modifikasi: 1 | Ditambahkan: 1 | Dihapus: 1
+> **Ringkasan Alert:** Modifikasi: 1 | Ditambahkan: 1 | Dihapus: 1
 
 ---
 
