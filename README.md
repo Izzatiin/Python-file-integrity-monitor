@@ -23,11 +23,11 @@
 Pastikan Anda telah menginstal **Python 3.10+**.
 
 1. **Clone Repositori ini:**
-   git clone [https://github.com/Izzatiin/Python-file-integrity-monitor.git](https://github.com/Izzatiin/Python-file-integrity-monitor.git)
-   cd Python-file-integrity-monitor
+   `git clone https://github.com/Izzatiin/Python-file-integrity-monitor.git`
+   `cd Python-file-integrity-monitor`
 
 2. **Instal Dependencies:**
-   pip install rich
+   `pip install rich`
 
 ---
 
